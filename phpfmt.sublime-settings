@@ -1,0 +1,10 @@
+{
+	"passes":
+	[
+		"AddMissingParentheses",
+		"AlignPHPCode",
+		"AllmanStyleBraces"
+	],
+	"psr1": true,
+	"version": 1
+}

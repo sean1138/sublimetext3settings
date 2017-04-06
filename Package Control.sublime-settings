@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Autoprefixer",
+		"BracketHighlighter",
+		"CSScomb",
+		"DeleteBlankLines",
+		"HTML-CSS-JS Prettify",
+		"LESS",
+		"npm",
+		"Package Control",
+		"PackageResourceViewer",
+		"phpfmt",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"Sync Settings",
+		"TrailingSpaces"
+	]
+}

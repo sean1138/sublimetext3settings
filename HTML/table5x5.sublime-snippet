@@ -1,0 +1,52 @@
+<snippet>
+	<content><![CDATA[
+<table class="table table-bordered">
+	<caption>
+		${1:CAPTION}
+	</caption>
+	<thead>
+		<tr>
+			<th scope="col">XXX</th>
+			<th scope="col">XXX</th>
+			<th scope="col">XXX</th>
+			<th scope="col">XXX</th>
+			<th scope="col">XXX</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">XXX</th>
+			<td>XXX</td>
+			<td>XXX</td>
+			<td>XXX</td>
+			<td>XXX</td>
+		</tr>
+		<tr>
+			<th scope="row">XXX</th>
+			<td>XXX</td>
+			<td>XXX</td>
+			<td>XXX</td>
+			<td>XXX</td>
+		</tr>
+		<tr>
+			<th scope="row">XXX</th>
+			<td>XXX</td>
+			<td>XXX</td>
+			<td>XXX</td>
+			<td>XXX</td>
+		</tr>
+		<tr>
+			<th scope="row">XXX</th>
+			<td>XXX</td>
+			<td>XXX</td>
+			<td>XXX</td>
+			<td>XXX</td>
+		</tr>
+	</tbody>
+</table>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>table5</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

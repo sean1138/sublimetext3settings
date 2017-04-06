@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<li data-correct="1"><p>${1:answer}</p><div class="feedback"><p>Answer: ${2:XXX. xxx}</p><p>${3:exxxplanation}</p>
+</div></li>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

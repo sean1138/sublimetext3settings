@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="ytbox">
+	<div class="onlinemode video-fluid">
+		<iframe title="youtube video" src="https://www.youtube.com/embed/videoseries?list=UU${1:YG8YvPCqovDWbmJErYFMjQ}&amp;rel=0&amp;cc_load_policy=1&amp;iv_load_policy=3&amp;loop=1" frameborder="0" allowfullscreen></iframe>
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ytpl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

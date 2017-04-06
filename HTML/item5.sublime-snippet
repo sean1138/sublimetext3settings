@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<li id="item5"><span>E</span>
+	<input id="input_item_5" type="radio">
+	<label for="input_item_5">EEE</label>
+</li>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>it5</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

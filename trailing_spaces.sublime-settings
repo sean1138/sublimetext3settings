@@ -1,0 +1,5 @@
+{
+	"trailing_spaces_include_current_line" : false,
+	// By default, only simple spaces and tabs are matched as "trailing spaces".
+	"trailing_spaces_regexp": "[ \t]+"
+}

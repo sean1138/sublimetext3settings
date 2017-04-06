@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<figure><img alt="Figure ${1:alttext}" src="${2:}" ${3:class="bigit" }/>
+	<figcaption><strong>Figure ${4:nnnumber}</strong> ${5:<em>Archimedes Thoughtful</em> by Fetti (1620)}</figcaption>
+</figure>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ffig</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

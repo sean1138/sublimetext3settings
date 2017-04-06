@@ -1,0 +1,50 @@
+{
+	"color_scheme": "Packages/User/VS_001 (SL).tmTheme",
+	"drag_text": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.pdf",
+		"*.db",
+		"*.sublime-workspace",
+		"*.xls",
+		"*.xlsx"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+	"font_face": "Consolas",
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_top": 2,
+	"spell_check": false,
+	"tab_size": 2,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "true"
+}
