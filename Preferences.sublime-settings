@@ -1,8 +1,26 @@
 {
+	"atomic_save": true,
 	"color_scheme": "Packages/User/VS_001 (SL).tmTheme",
 	"drag_text": false,
 	"file_exclude_patterns":
 	[
+		"*.ai",
+		"*.arf",
+		"*.avi",
+		"*.flv",
+		"*.gif",
+		"*.jpg",
+		"*.jpeg",
+		"*.m4v",
+		"*.mov",
+		"*.mp3",
+		"*.mp4",
+		"*.mpg",
+		"*.mpeg",
+		"*.pgv",
+		"*.png",
+		"*.ppt",
+		"*.pptx",
 		"*.pyc",
 		"*.pyo",
 		"*.exe",
@@ -12,6 +30,7 @@
 		"*.a",
 		"*.lib",
 		"*.so",
+		"*.sql",
 		"*.dylib",
 		"*.ncb",
 		"*.sdf",
@@ -25,7 +44,8 @@
 		"*.db",
 		"*.sublime-workspace",
 		"*.xls",
-		"*.xlsx"
+		"*.xlsx",
+		"*.zip"
 	],
 	"folder_exclude_patterns":
 	[
@@ -35,7 +55,7 @@
 		"CVS"
 	],
 	"font_face": "Consolas",
-	"font_size": 11,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -43,8 +63,10 @@
 		"Vintage"
 	],
 	"line_padding_top": 2,
+	"show_encoding": true,
 	"spell_check": false,
 	"tab_size": 2,
+	"theme": "Default.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "true"
 }

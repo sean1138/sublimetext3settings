@@ -1,5 +1,7 @@
 {
-	"default_browser": "canary",
+	// 2018.06.06 default_browser stopped working, nobody else... https://forum.sublimetext.com/t/sidebarenhancements-open-in-browser-is-misbehaving/37330/3
+	"portable_browser": "C:\\Users\\00\\AppData\\Local\\Google\\Chrome SxS\\Application\\chrome.exe",
+	// "default_browser": "canary",
 	// "default_browser": "chrome",
 	"version": "setting no longer updated"
 }

@@ -5,12 +5,15 @@
 	],
 	"installed_packages":
 	[
+		"ApacheConf",
 		"Autoprefixer",
+		"Babel",
 		"BracketHighlighter",
 		"CSScomb",
 		"DeleteBlankLines",
 		"HTML-CSS-JS Prettify",
 		"LESS",
+		"Minify",
 		"npm",
 		"Package Control",
 		"PackageResourceViewer",
@@ -20,6 +23,8 @@
 		"SublimeLinter-csslint",
 		"SublimeLinter-jshint",
 		"Sync Settings",
+		"Syntax Highlighting for Sass",
+		"Text Pastry",
 		"TrailingSpaces"
 	]
 }

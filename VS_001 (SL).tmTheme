@@ -25,6 +25,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
+				<!-- main background color -->
 				<string>#16131a</string>
 				<key>caret</key>
 				<string>#77ff00</string>
@@ -2025,37 +2026,923 @@
 				<string>#2aa198</string>
 			</dict>
 		</dict>
-	<dict>
-            <key>name</key>
-            <string>SublimeLinter Warning</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#DDB700</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Error</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#D02000</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict></array>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.warning</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#DDB700</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.error</string>
+			<key>settings</key>
+			<dict>
+					<key>foreground</key>
+					<string>#D02000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Gutter Mark</string>
+			<key>scope</key>
+			<string>sublimelinter.gutter-mark</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<!-- START INI.tmLanguage colors 2019.05.25 -->
+		<dict>
+			<key>name</key>
+			<string>INI notsure5 - the bold rule affects entire setting="value" - mysql my.ini as reference</string>
+			<key>scope</key>
+			<string>meta.declaration.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+				<!-- <key>fontStyle</key>
+				<string>bold</string> -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>INI comment #</string>
+			<key>scope</key>
+			<string>punctuation.definition.comment.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#479900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>INI comment line text</string>
+			<key>scope</key>
+			<string>comment.line.semicolon.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#479900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>INI brackets</string>
+			<key>scope</key>
+			<string>punctuation.definition.section.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cc6a29</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>INI brackets text</string>
+			<key>scope</key>
+			<string>entity.section.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cc6a29</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>INI notsure1</string>
+			<key>scope</key>
+			<string>meta.tag.section.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>INI property - "=" in mysql's my.ini</string>
+			<key>scope</key>
+			<string>meta.property.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>INI notsure2 - there are 4 instances of this in the INI.tmLanguage file</string>
+			<key>scope</key>
+			<string>punctuation.definition.quote.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>INI name - what i would call a 'setting' in setting=value context</string>
+			<key>scope</key>
+			<string>keyword.name.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cca3cc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>INI definition quote - quotes around values setting="value"</string>
+			<key>scope</key>
+			<string>punctuation.definition.quote.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFD900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>INI definition equals - overrides meta.property.ini above</string>
+			<key>scope</key>
+			<string>punctuation.definition.equals.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffa3ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>INI notsure3</string>
+			<key>scope</key>
+			<string>meta.value.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FF00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>INI name value - what i would call a 'value' in setting=value context</string>
+			<key>scope</key>
+			<string>string.name.value.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e5e5e5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>INI notsure4</string>
+			<key>scope</key>
+			<string>comment.declarationline.semicolon.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000FF</string>
+			</dict>
+		</dict>
+		<!-- END INI.tmLanguage colors 2019.05.25 -->
+		<!-- START ApacheConf.tmLanguage colors 2019.05.25 -->
+		<!-- "apacheconf not used/found#" = rules i couldn't find or just don't use in my conf files, will be bright blue #00FFFF if they show up anywhere - don't think the https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage was written in such a way that i would prefer but it's better than nothing -->
+		<dict>
+			<key>name</key>
+			<string>apacheconf # pound sign start</string>
+			<key>scope</key>
+			<string>comment.line.hash.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#3c8800</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf angled brackets on tags</string>
+			<key>scope</key>
+			<string>punctuation.definition.tag.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf angled bracket tag name</string>
+			<key>scope</key>
+			<string>entity.tag.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf angled bracket tag attributes</string>
+			<key>scope</key>
+			<string>string.value.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffbfd7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found1 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>entity.status.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found2 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>string.regexp.apachecon</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf seems to hit Alias and ServerAlias values</string>
+			<key>scope</key>
+			<string>string.path.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCCC00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf keywords</string>
+			<key>scope</key>
+			<string>keyword.core.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- main orange for apache logs -->
+				<string>#ff9000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets Listen, User, Group</string>
+			<key>scope</key>
+			<string>keyword.mpm.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9000</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets pre-2.4 syntax order/allow</string>
+			<key>scope</key>
+			<string>keyword.access.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cc0000</string>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found3 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.actions.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets Alias and ScriptAlias</string>
+			<key>scope</key>
+			<string>keyword.alias.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DDDD00</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets AuthUserFile, AuthGroupFile</string>
+			<key>scope</key>
+			<string>keyword.auth.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found4 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.auth_anon.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found5 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.auth_dbm.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found6 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.auth_digest.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found7 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.auth_ldap.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets IndexOptions rule see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.autoindex.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9000</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found8 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.filter.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found9 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.cache.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found10 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.cern_meta.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found11 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.cgi.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found12 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.cgid.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found13 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.charset_lite.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found14 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.dav.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found15 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.deflate.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets IndexOptions rule see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.dir.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9000</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found16 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.disk_cache.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found17 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.dumpio.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found18 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.env.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found19 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.expires.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found20 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.ext_filter.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found21 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.file_cache.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found22 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.filter.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets Header|RequestHeader</string>
+			<key>scope</key>
+			<string>keyword.headers.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9000</string>
+				<!-- <key>fontStyle</key>
+				<string>bold</string> -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found23 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.imap.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found24 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.include.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found25 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.isapi.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found26 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.ldap.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets some Log things</string>
+			<key>scope</key>
+			<string>keyword.log.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cccc00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found28 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.mem_cache.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets AddHandler, AddOutputFilter</string>
+			<key>scope</key>
+			<string>keyword.mime.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9000</string>
+				<!-- <key>fontStyle</key>
+				<string>bold</string> -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found29 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.misc.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found30 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.negotiation.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found31 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.nw_ssl.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found32 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.proxy.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found33 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.rewrite.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found34 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.setenvif.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets LoadModule</string>
+			<key>scope</key>
+			<string>keyword.so.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cccc00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets SSLRandomSeed</string>
+			<key>scope</key>
+			<string>keyword.ssl.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cccc00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found36 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.substitute.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found37 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.usertrack.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found38 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.vhost_alias.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found39 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>keyword.php.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<!-- these 2 dicts will hit other things - string.value.apacheconf gets <Directory "path/to/directory">
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found40 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>entity.property.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found41 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>string.value.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict> -->
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets curly brackets</string>
+			<key>scope</key>
+			<string>punctuation.variable.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF00FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found42 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>variable.env.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets inside curly brackets</string>
+			<key>scope</key>
+			<string>variable.misc.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF99FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets values for Addtype, AddHandler</string>
+			<key>scope</key>
+			<string>entity.mime-type.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- 10 degrees from main apache orange -->
+				<string>#ffbb00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf gets export|from|unset|set|on|off</string>
+			<key>scope</key>
+			<string>entity.helper.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<!-- 10 degrees from main apache orange -->
+				<string>#ffbb00</string>
+			</dict>
+		</dict>
+		<!-- <dict>
+			<key>name</key>
+			<string>apacheconf gets numbers, not sure of the logic</string>
+			<key>scope</key>
+			<string>constant.integer.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict> -->
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found43 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>punctuation.definition.flag.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>apacheconf not used/found44 see https://github.com/colinta/ApacheConf.tmLanguage/blob/master/ApacheConf.tmLanguage</string>
+			<key>scope</key>
+			<string>string.flag.apacheconf</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FFFF</string>
+			</dict>
+		</dict>
+		<!-- END ApacheConf.tmLanguage colors 2019.05.25 -->
+	</array>
 	<key>uuid</key>
 	<string>A4299D9B-1DE5-4BC4-87F6-A757E71B1597</string>
 	<key>colorSpaceName</key>
@@ -2065,9 +2952,11 @@
 	<key>comment</key>
 	<string>2014.04.03
 
-I started with Solarized (dark) as a base as it seemed to have the most interesting and useful rules to me.  I'm mainly interested in HTML and CSS theming.
+I started with Solarized (dark) as a base as it seemed to have the most interesting and useful rules to me.  I'm mainly interested in HTML and CSS syntax coloring.
+
+2019.05.25 added color rules for INI.tmLanguage (https://packagecontrol.io/packages/INI) and ApacheConf.tmLanguage (https://github.com/colinta/ApacheConf.tmLanguage & http://www.sublimetext.com/forum/viewtopic.php?f=5&t=856)
 
 known bugs/issues:
-CSS closing curly brackets } are red instead of pink in ST3</string>
+<!DOCTYPE HTML> gets funky coloring vs <!doctype html> getting plain white in ST3</string>
 </dict>
 </plist>

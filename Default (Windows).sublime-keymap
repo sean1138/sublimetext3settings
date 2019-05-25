@@ -6,7 +6,11 @@
 	// { "keys": ["ctrl+alt+f"], "command": "reindent" , "args": { "single_line": false } },
 	// { "keys": ["ctrl+alt+f"], "command": "format_html" , "args": { "single_line": false } }
 	{ "keys": ["ctrl+alt+f"], "command": "htmlprettify"},
-	{ "keys": ["ctrl+alt+r"], "command": "reformat_html" }, // ReformatHtml.py
+	{ "keys": ["ctrl+alt+r"], "command": "reformat_html" },
+	{"keys": ["ctrl+alt+m"], "command": "minify"},
+	// ReformatHtml.py
+	// ctrl+shift+c default css_comb keybind
+	{ "keys": ["ctrl+alt+c"], "command": "css_comb"},
 	{ "keys": ["ctrl+alt+e"], "command": "encode_html_entities_vs" }, // EncodeHtmlEntitiesVs.py
 	{ "keys": ["ctrl+shift+w"], "command": "close_all" },
 	{ "keys": ["ctrl+alt+shift+s"], "command": "save_all" },
@@ -17,9 +21,11 @@
 	{ "keys": ["f12"],
 			"command": "side_bar_open_in_browser" ,
 			"args":{"paths":[], "type":"testing"}
-		},
-		{ "keys": ["alt+f12"],
-			"command": "side_bar_open_in_browser",
-			"args":{"paths":[], "type":"production"}
-		}
+	},
+	{ "keys": ["alt+f12"],
+		"command": "side_bar_open_in_browser",
+		"args":{"paths":[], "type":"production"}
+	},
+	{ "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
+	{ "keys": ["ctrl+shift+enter"], "command": "open_url_under_cursor" }
 ]

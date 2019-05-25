@@ -2,7 +2,7 @@
 	<content><![CDATA[
 <div class="ytbox">
 	<div class="onlinemode video-fluid">
-		<iframe title="youtube video" src="//www.youtube.com/embed/${1:XQu8TTBmGhA}?rel=0&amp;${2:start=000&amp;end=888&amp;cc_load_policy=1&amp;iv_load_policy=3&amp;loop=1}" frameborder="0" allowfullscreen=""></iframe>
+		<iframe title="youtube video" src="//www.youtube.com/embed/${1:XQu8TTBmGhA}?rel=0&amp;${2:start=000&amp;end=888&amp;cc_load_policy=1&amp;iv_load_policy=3&amp;loop=1}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 </div>
 ]]></content>
