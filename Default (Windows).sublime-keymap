@@ -1,7 +1,7 @@
 [
 	{ "keys": ["ctrl+v"], "command": "paste_and_indent" },
 	// Delete all trailing spaces
-	{ "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
+	{ "keys": ["ctrl+shift+;"], "command": "delete_trailing_spaces" },
 	// Delete Blank Lines -- select all, Ctrl+Alt+Backspace --> Delete Blank Lines
 	// { "keys": ["ctrl+alt+f"], "command": "reindent" , "args": { "single_line": false } },
 	// { "keys": ["ctrl+alt+f"], "command": "format_html" , "args": { "single_line": false } }
