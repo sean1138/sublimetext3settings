@@ -8,7 +8,8 @@
 				"errors": "",
 				"excludes": [],
 				"ignore": ["adjoining-classes,box-model,box-sizing,important,ids,overqualified-elements,order-alphabetical"],
-				"warnings": ""
+				"warnings": "",
+				"lint_mode": "manual"
 		}
 	}
 }
