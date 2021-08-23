@@ -1,3 +1,4 @@
 {
-	"psr1": false
+	"psr1": false,
+	"version": 4,
 }

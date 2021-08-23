@@ -11,6 +11,8 @@
 		"BracketHighlighter",
 		"CSScomb",
 		"DeleteBlankLines",
+		"Emmet",
+		"ESLint",
 		"Gremlins",
 		"HTML-CSS-JS Prettify",
 		"JSCustom",
@@ -19,6 +21,7 @@
 		"npm",
 		"Package Control",
 		"PackageResourceViewer",
+		"PHP-Twig",
 		"phpfmt",
 		"SideBarEnhancements",
 		"SublimeLinter",
@@ -27,6 +30,6 @@
 		"Sync Settings",
 		"Syntax Highlighting for Sass",
 		"Text Pastry",
-		"TrailingSpaces"
-	]
+		"TrailingSpaces",
+	],
 }

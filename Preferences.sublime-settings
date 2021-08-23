@@ -60,7 +60,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"SublimeLinter-csslint",
+		"Vintage",
 	],
 	"line_padding_top": 2,
 	"show_encoding": true,
@@ -68,5 +69,5 @@
 	"tab_size": 2,
 	"theme": "Default.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
+	"word_wrap": "true",
 }

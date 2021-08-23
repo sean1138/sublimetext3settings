@@ -7,9 +7,24 @@
 				"args": [],
 				"errors": "",
 				"excludes": [],
-				"ignore": ["adjoining-classes,box-model,box-sizing,important,ids,overqualified-elements,order-alphabetical"],
+				"ignore": ["adjoining-classes,box-model,box-sizing,important,ids,overqualified-elements,universal-selector,order-alphabetical"],
 				"warnings": "",
 				"lint_mode": "manual"
+		},
+		"jshint":{
+			"args":["--config", "C:\\Users\\00\\AppData\\Roaming\\npm\\node_modules\\.bin\\eslint"]
+		},
+		"syntax_map": {
+		  "JavaScript (Babel)": "javascript",
 		}
+	},
+	"paths": {
+	  "linux": [],
+	  "osx": [
+	    "/Users/jonathanc/.nvm/versions/io.js/v2.0.0/bin"
+	  ],
+	  "windows": [
+	  	"A:/nodejs"
+	  ]
 	}
 }
