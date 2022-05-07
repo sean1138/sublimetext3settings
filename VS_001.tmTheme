@@ -522,18 +522,35 @@
 			</dict>
 		</dict>
 		<!-- start 2022 -->
+		<!-- css curly brackets{} -->
+		<dict>
+			<key>name</key>
+			<string>CSS curly brackets</string>
+			<key>scope</key>
+			<string>punctuation.section.block.begin.css, punctuation.section.block.end.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>hsl(338, 80%, 40%)</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS unquoted string 1</string>
 			<!-- catches css var missing the double dash at start in var(my-var) -->
 			<key>scope</key>
-			<string>source.css meta.at-rule.media.css meta.block.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css</string>
+			<string>
+				source.css meta.at-rule.media.css meta.block.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css,
+				source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css
+		</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold italic underline</string>
 				<key>foreground</key>
-				<string>#ffFF00</string>
+				<string>hsl(60, 100%, 50%)</string>
 			</dict>
 		</dict>
 		<dict>
@@ -547,7 +564,7 @@
 				<key>fontStyle</key>
 				<string>bold italic underline</string>
 				<key>foreground</key>
-				<string>#ffFF00</string>
+				<string>hsl(60, 100%, 50%)</string>
 			</dict>
 		</dict>
 		<dict>
@@ -560,7 +577,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#ff6600</string>
+				<string>hsl(24, 100%, 50%)</string>
 			</dict>
 		</dict>
 		<dict>
@@ -573,7 +590,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#ff6600</string>
+				<string>hsl(24, 100%, 50%)</string>
 			</dict>
 		</dict>
 		<dict>
@@ -586,7 +603,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ff6600</string>
+				<string>hsl(24, 100%, 50%)</string>
 			</dict>
 		</dict>
 		<dict>
@@ -599,7 +616,20 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ff6600</string>
+				<string>hsl(24, 100%, 50%)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS variables 4</string>
+			<key>scope</key>
+			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.identifier.css support.function.var.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>hsl(24, 100%, 50%)</string>
 			</dict>
 		</dict>
 		<dict>
@@ -612,7 +642,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string></string>
+				<string>hsl(196, 100%, 50%)</string>
 			</dict>
 		</dict>
 		<!-- end 2022 -->
@@ -2131,9 +2161,6 @@
 	<string>2014.04.03
 
 I started with Solarized (dark) as a base as it seemed to have the most interesting and useful rules to me.  I&apos;m mainly interested in HTML and CSS theming.
-
-known bugs&#x2f;issues:
-CSS closing curly brackets } are red instead of pink in ST3
 
 2022.05.07
 added rules for css variables, should be orange, they don&apos;t seem to work in the herokuapp editor though</string>
