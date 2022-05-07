@@ -523,6 +523,71 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>CSS unquoted string</string>
+			<key>scope</key>
+			<string>source.css meta.at-rule.media.css meta.block.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic underline</string>
+				<key>foreground</key>
+				<string>#ffFF00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS variables declaration</string>
+			<key>scope</key>
+			<string>source.css meta.property-list.css meta.block.css meta.property-name.css entity.other.custom-property.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#ff6600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS variables 1</string>
+			<key>scope</key>
+			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.function-call.identifier.css support.function.var.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#ff6600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS variables 2</string>
+			<key>scope</key>
+			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css variable.other.custom-property.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ff6600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS calc</string>
+			<key>scope</key>
+			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.identifier.css support.function.calc.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JS: Function Name</string>
 			<key>scope</key>
 			<string>meta.function.js, entity.name.function.js, support.function.dom.js</string>
@@ -760,7 +825,6 @@
 				<string>#3c8000</string>
 			</dict>
 		</dict>
-		<!-- VSXD adding START -->
 		<dict>
 			<key>name</key>
 			<string>HTML: inline &lt;tag&gt;</string>
@@ -768,8 +832,6 @@
 			<string>entity.name.tag.inline.any.html</string>
 			<key>settings</key>
 			<dict>
-				<!-- <key>fontStyle</key>
-				<string>bold</string> -->
 				<key>foreground</key>
 				<string>#ff9000</string>
 			</dict>
@@ -781,13 +843,10 @@
 			<string>entity.name.tag.block.any.html</string>
 			<key>settings</key>
 			<dict>
-				<!-- <key>fontStyle</key>
-				<string>bold</string> -->
 				<key>foreground</key>
 				<string>#F92672</string>
 			</dict>
 		</dict>
-		<!-- VSXD adding END -->
 		<dict>
 			<key>name</key>
 			<string>Ruby: Variable definition</string>
@@ -2044,6 +2103,9 @@
 I started with Solarized (dark) as a base as it seemed to have the most interesting and useful rules to me.  I&apos;m mainly interested in HTML and CSS theming.
 
 known bugs&#x2f;issues:
-CSS closing curly brackets } are red instead of pink in ST3</string>
+CSS closing curly brackets } are red instead of pink in ST3
+
+2022.05.07
+added rules for css variables, should be orange, they don&apos;t seem to work in the herokuapp editor though</string>
 </dict>
 </plist>

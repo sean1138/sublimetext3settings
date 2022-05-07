@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 <figure><img alt="Figure ${1:alttext}" src="${2:}" />
-	<figcaption><strong>Figure ${3:nnnumber}</strong> ${4:<em>Archimedes Thoughtful</em> by Fetti (1620)}</figcaption>
+	<figcaption><strong>Figure ${3:nnnumber}</strong> <em>${4:Archimedes Thoughtful}</em> <cite>${5:by Fetti (1620)}</cite></figcaption>
 </figure>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

@@ -1,0 +1,36 @@
+[
+	{ "keys": ["ctrl+v"], "command": "paste_and_indent" },
+	// Delete all trailing spaces
+	{ "keys": ["ctrl+shift+;"], "command": "delete_trailing_spaces" },
+	// Delete Blank Lines -- select all, Ctrl+Alt+Backspace --> Delete Blank Lines
+	// { "keys": ["ctrl+alt+f"], "command": "reindent" , "args": { "single_line": false } },
+	// { "keys": ["ctrl+alt+f"], "command": "format_html" , "args": { "single_line": false } }
+	{ "keys": ["ctrl+alt+f"], "command": "htmlprettify"},
+	{ "keys": ["ctrl+alt+r"], "command": "reformat_html" },
+	{"keys": ["ctrl+alt+m"], "command": "minify"},
+	// ReformatHtml.py
+	// ctrl+shift+c default css_comb keybind
+	{ "keys": ["ctrl+alt+c"], "command": "css_comb"},
+	{ "keys": ["ctrl+alt+e"], "command": "encode_html_entities_vs" }, // EncodeHtmlEntitiesVs.py
+	{ "keys": ["ctrl+shift+w"], "command": "close_all" },
+	{ "keys": ["ctrl+alt+shift+s"], "command": "save_all" },
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+	// default key bind ctrl+u is soft undo, may interfere with emmet...
+	{"keys": ["ctrl+alt+shift+u"], "args": {"action": "update_image_size"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.update_image_size"} ] },
+	{ "keys": ["f12"],
+			"command": "side_bar_open_in_browser" ,
+			"args":{"paths":[], "type":"testing"}
+	},
+	{ "keys": ["alt+f12"],
+		"command": "side_bar_open_in_browser",
+		"args":{"paths":[], "type":"production"}
+	},
+	{ "keys": ["ctrl+k", "ctrl+t"], "command": "title_case" },
+	{ "keys": ["ctrl+shift+enter"], "command": "open_url_under_cursor" },
+	{ "keys": ["ctrl+shift+d"],
+			"command": "insert_date" },
+	{ "keys": ["ctrl+shift+t"],
+			"command": "insert_date",
+			"args": {"format": "%I:%M:%S %p"} }
+]

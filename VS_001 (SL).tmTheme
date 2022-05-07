@@ -519,6 +519,73 @@
 				<string>#ff0000</string>
 			</dict>
 		</dict>
+		<!-- start 2022 -->
+		<dict>
+			<key>name</key>
+			<string>CSS unquoted string</string>
+			<key>scope</key>
+			<string>source.css meta.at-rule.media.css meta.block.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic underline</string>
+				<key>foreground</key>
+				<string>#ffFF00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS variables declaration</string>
+			<key>scope</key>
+			<string>source.css meta.property-list.css meta.block.css meta.property-name.css entity.other.custom-property.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#ff6600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS variables 1</string>
+			<key>scope</key>
+			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.function-call.identifier.css support.function.var.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#ff6600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS variables 2</string>
+			<key>scope</key>
+			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css variable.other.custom-property.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ff6600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS calc</string>
+			<key>scope</key>
+			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.identifier.css support.function.calc.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<!-- end 2022 -->
 		<dict>
 			<key>name</key>
 			<string>JS: Function Name</string>
@@ -2956,6 +3023,9 @@
 I started with Solarized (dark) as a base as it seemed to have the most interesting and useful rules to me.  I'm mainly interested in HTML and CSS syntax coloring.
 
 2019.05.25 added color rules for INI.tmLanguage (https://packagecontrol.io/packages/INI) and ApacheConf.tmLanguage (https://github.com/colinta/ApacheConf.tmLanguage & http://www.sublimetext.com/forum/viewtopic.php?f=5&t=856)
+
+2022.05.07
+added rules for css variables, should be orange, they don&apos;t seem to work in the herokuapp editor though
 
 known bugs/issues:
 <!DOCTYPE HTML> gets funky coloring vs <!doctype html> getting plain white in ST3</string>
