@@ -589,6 +589,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>CSS variables 3</string>
+			<key>scope</key>
+			<string>source.css meta.at-rule.media.css meta.block.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.identifier.css support.function.var.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#ff6600</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>CSS calc</string>
 			<key>scope</key>
 			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.identifier.css support.function.calc.css</string>
