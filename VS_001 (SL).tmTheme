@@ -522,9 +522,24 @@
 		<!-- start 2022 -->
 		<dict>
 			<key>name</key>
-			<string>CSS unquoted string</string>
+			<string>CSS unquoted string 1</string>
+			<!-- catches css var missing the double dash at start in var(my-var) -->
 			<key>scope</key>
 			<string>source.css meta.at-rule.media.css meta.block.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic underline</string>
+				<key>foreground</key>
+				<string>#ffFF00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS unquoted string 2</string>
+			<!-- catches css var missing the double dash at start in calc(var(my-var)) -->
+			<key>scope</key>
+			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>

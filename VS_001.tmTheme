@@ -521,71 +521,88 @@
 				<string>#ff0000</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS unquoted string</string>
-			<key>scope</key>
-			<string>source.css meta.at-rule.media.css meta.block.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold italic underline</string>
-				<key>foreground</key>
-				<string>#ffFF00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS variables declaration</string>
-			<key>scope</key>
-			<string>source.css meta.property-list.css meta.block.css meta.property-name.css entity.other.custom-property.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#ff6600</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS variables 1</string>
-			<key>scope</key>
-			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.function-call.identifier.css support.function.var.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#ff6600</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS variables 2</string>
-			<key>scope</key>
-			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css variable.other.custom-property.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#ff6600</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS calc</string>
-			<key>scope</key>
-			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.identifier.css support.function.calc.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
+		<!-- start 2022 -->
+				<dict>
+					<key>name</key>
+					<string>CSS unquoted string 1</string>
+					<!-- catches css var missing the double dash at start in var(my-var) -->
+					<key>scope</key>
+					<string>source.css meta.at-rule.media.css meta.block.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string>bold italic underline</string>
+						<key>foreground</key>
+						<string>#ffFF00</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CSS unquoted string 2</string>
+					<!-- catches css var missing the double dash at start in calc(var(my-var)) -->
+					<key>scope</key>
+					<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string>bold italic underline</string>
+						<key>foreground</key>
+						<string>#ffFF00</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CSS variables declaration</string>
+					<key>scope</key>
+					<string>source.css meta.property-list.css meta.block.css meta.property-name.css entity.other.custom-property.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string>italic</string>
+						<key>foreground</key>
+						<string>#ff6600</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CSS variables 1</string>
+					<key>scope</key>
+					<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.function-call.identifier.css support.function.var.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string>italic</string>
+						<key>foreground</key>
+						<string>#ff6600</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CSS variables 2</string>
+					<key>scope</key>
+					<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css variable.other.custom-property.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>#ff6600</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CSS calc</string>
+					<key>scope</key>
+					<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.identifier.css support.function.calc.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string></string>
+					</dict>
+				</dict>
+				<!-- end 2022 -->
 		<dict>
 			<key>name</key>
 			<string>JS: Function Name</string>
