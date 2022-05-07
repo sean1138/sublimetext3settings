@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<link rel="preload" as="font" crossorigin="crossorigin" href="${1:https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Roboto:300}" rel="stylesheet" />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
