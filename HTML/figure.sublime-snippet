@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<figure><img alt="Figure ${1:alttext}" src="${2:}" />
+<figure style="display:flex;flex-direction:column;place-items:center">
+	<img alt="Figure ${1:alttext}" src="${2:}" />
 	<figcaption><strong>Figure ${3:nnnumber}</strong> <em>${4:Archimedes Thoughtful}</em> <cite>${5:by Fetti (1620)}</cite></figcaption>
 </figure>
 ]]></content>

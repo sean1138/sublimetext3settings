@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<div class="ytbox">
+<div class="ytbox" style="display:flex;flex-direction:column;place-items:center">
 	<div class="onlinemode video-fluid">
 		<iframe title="youtube video" src="//www.youtube.com/embed/${1:XQu8TTBmGhA}?rel=0&amp;${2:start=000&amp;end=888&amp;cc_load_policy=1&amp;iv_load_policy=3&amp;loop=1}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border:0px;"></iframe>
 	</div>
