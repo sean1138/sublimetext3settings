@@ -2306,6 +2306,11 @@
 I started with Solarized (dark) as a base as it seemed to have the most interesting and useful rules to me.  I&apos;m mainly interested in HTML and CSS theming.
 
 2022.05.07
-added rules for css variables, should be orange, they don&apos;t seem to work in the herokuapp editor though</string>
+added rules for css variables, should be orange, they don&apos;t seem to work in the herokuapp editor though
+
+2022.08.29
+added rules for HTML attributes style, href, and src - style=pink, href&src=blue
+
+</string>
 </dict>
 </plist>

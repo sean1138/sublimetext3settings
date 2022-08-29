@@ -3228,6 +3228,9 @@ I started with Solarized (dark) as a base as it seemed to have the most interest
 2022.05.07
 added rules for css variables, should be orange, they don&apos;t seem to work in the herokuapp editor though
 
+2022.08.29
+added rules for HTML attributes style, href, and src - style=pink, href&src=blue
+
 known bugs/issues:
 <!DOCTYPE HTML> gets funky coloring vs <!doctype html> getting plain white in ST3</string>
 </dict>
