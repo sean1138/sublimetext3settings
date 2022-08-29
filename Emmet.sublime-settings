@@ -3,4 +3,5 @@
 "css_completions_scope": "source.scss - comment - variable - keyword.control - entity.other, source.sass - comment - variable - keyword.control - entity.other",
 	"telemetry": false,
 	"uid": "71ea6e8a-fb52-4e9f-81b7-c257913957a7",
+	"abbreviation_preview ":false,
 }

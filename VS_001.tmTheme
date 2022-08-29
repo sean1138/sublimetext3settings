@@ -522,130 +522,273 @@
 			</dict>
 		</dict>
 		<!-- start 2022 -->
-		<!-- css curly brackets{} -->
-		<dict>
-			<key>name</key>
-			<string>CSS curly brackets</string>
-			<key>scope</key>
-			<string>punctuation.section.block.begin.css, punctuation.section.block.end.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>hsl(338, 80%, 40%)</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS unquoted string 1</string>
-			<!-- catches css var missing the double dash at start in var(my-var) -->
-			<key>scope</key>
-			<string>
-				source.css meta.at-rule.media.css meta.block.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css,
-				source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css
-		</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold italic underline</string>
-				<key>foreground</key>
-				<string>hsl(60, 100%, 50%)</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS unquoted string 2</string>
-			<!-- catches css var missing the double dash at start in calc(var(my-var)) -->
-			<key>scope</key>
-			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold italic underline</string>
-				<key>foreground</key>
-				<string>hsl(60, 100%, 50%)</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS variables declaration</string>
-			<key>scope</key>
-			<string>source.css meta.property-list.css meta.block.css meta.property-name.css entity.other.custom-property.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>hsl(24, 100%, 50%)</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS variables 1</string>
-			<key>scope</key>
-			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.function-call.identifier.css support.function.var.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>hsl(24, 100%, 50%)</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS variables 2</string>
-			<key>scope</key>
-			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css variable.other.custom-property.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>hsl(24, 100%, 50%)</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS variables 3</string>
-			<key>scope</key>
-			<string>source.css meta.at-rule.media.css meta.block.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.identifier.css support.function.var.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>hsl(24, 100%, 50%)</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS variables 4</string>
-			<key>scope</key>
-			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.identifier.css support.function.var.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>hsl(24, 100%, 50%)</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS calc</string>
-			<key>scope</key>
-			<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.identifier.css support.function.calc.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>hsl(196, 100%, 50%)</string>
-			</dict>
-		</dict>
-		<!-- end 2022 -->
+				<!-- css curly brackets{} -->
+				<dict>
+					<key>name</key>
+					<string>CSS curly brackets</string>
+					<key>scope</key>
+					<string>punctuation.section.block.begin.css, punctuation.section.block.end.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string>bold</string>
+						<key>foreground</key>
+						<string>hsl(338, 80%, 40%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CSS unquoted string 1</string>
+					<!-- catches css var missing the double dash at start in var(my-var) -->
+					<key>scope</key>
+					<string>
+						source.css meta.at-rule.media.css meta.block.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css,
+						source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css
+				</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string>bold italic underline</string>
+						<key>foreground</key>
+						<string>hsl(60, 100%, 50%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CSS unquoted string 2</string>
+					<!-- catches css var missing the double dash at start in calc(var(my-var)) -->
+					<key>scope</key>
+					<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.function-call.arguments.css meta.group.css meta.string.css string.unquoted.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string>bold italic underline</string>
+						<key>foreground</key>
+						<string>hsl(60, 100%, 50%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CSS variables declaration</string>
+					<key>scope</key>
+					<string>source.css meta.property-list.css meta.block.css meta.property-name.css entity.other.custom-property.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string>italic</string>
+						<key>foreground</key>
+						<string>hsl(24, 100%, 50%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CSS variables 1</string>
+					<key>scope</key>
+					<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css meta.function-call.identifier.css support.function.var.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string>italic</string>
+						<key>foreground</key>
+						<string>hsl(24, 100%, 50%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CSS variables 2</string>
+					<key>scope</key>
+					<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css meta.group.css variable.other.custom-property.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(24, 100%, 50%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CSS variables 3</string>
+					<key>scope</key>
+					<string>source.css meta.at-rule.media.css meta.block.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.identifier.css support.function.var.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(24, 100%, 50%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CSS variables 4</string>
+					<key>scope</key>
+					<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.identifier.css support.function.var.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(24, 100%, 50%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>CSS calc</string>
+					<key>scope</key>
+					<string>source.css meta.property-list.css meta.block.css meta.property-value.css meta.function-call.identifier.css support.function.calc.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(196, 100%, 50%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>HTML inline style attribute</string>
+					<key>scope</key>
+					<string>embedding.php text.html.basic meta.tag.block.any.html meta.attribute-with-value.style.html entity.other.attribute-name.style.html, embedding.php text.html.basic meta.tag.inline.a.html meta.attribute-with-value.style.html entity.other.attribute-name.style.html</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(300, 50%, 80%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>HTML inline style attribute equals</string>
+					<key>scope</key>
+					<string>embedding.php text.html.basic meta.tag.block.any.html meta.attribute-with-value.style.html punctuation.separator.key-value.html, embedding.php text.html.basic meta.tag.inline.a.html meta.attribute-with-value.style.html punctuation.separator.key-value.html, embedding.php text.html.basic meta.tag.inline.any.html meta.attribute-with-value.style.html punctuation.separator.key-value.html</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(300, 50%, 80%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>HTML inline style attribute equals quotes</string>
+					<key>scope</key>
+					<string>embedding.php text.html.basic meta.tag.block.any.html meta.attribute-with-value.style.html meta.string.html string.quoted.double.html punctuation.definition.string.begin.html, embedding.php text.html.basic meta.tag.block.any.html meta.attribute-with-value.style.html meta.string.html string.quoted.double.html punctuation.definition.string.end.html, embedding.php text.html.basic meta.tag.inline.a.html meta.attribute-with-value.style.html meta.string.html string.quoted.double.html punctuation.definition.string.begin.html, embedding.php text.html.basic meta.tag.inline.a.html meta.attribute-with-value.style.html meta.string.html string.quoted.double.html punctuation.definition.string.end.html, embedding.php text.html.basic meta.tag.inline.any.html meta.attribute-with-value.style.html meta.string.html string.quoted.double.html punctuation.definition.string.begin.html, embedding.php text.html.basic meta.tag.inline.any.html meta.attribute-with-value.style.html meta.string.html string.quoted.double.html punctuation.definition.string.end.html</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(300, 50%, 80%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>HTML inline style properties</string>
+					<key>scope</key>
+					<string>source.css.embedded.html meta.property-name.css support.type.property-name.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(300, 66%, 66%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>HTML inline style values numeric</string>
+					<key>scope</key>
+					<string>source.css.embedded.html meta.property-value.css meta.number.integer.decimal.css constant.numeric.value.css, source.css.embedded.html meta.property-value.css meta.number.integer.decimal.css constant.numeric.suffix.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(300, 70%, 75%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>HTML inline style values non-numeric</string>
+					<key>scope</key>
+					<string>source.css.embedded.html meta.property-value.css support.constant.property-value.css</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(324, 70%, 75%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>HTML attribute class</string>
+					<key>scope</key>
+					<string>embedding.php text.html.basic meta.tag.inline.any.html meta.attribute-with-value.class.html entity.other.attribute-name.class.html</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(300, 50%, 80%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>HTML attribute class equals</string>
+					<key>scope</key>
+					<string>embedding.php text.html.basic meta.tag.inline.any.html meta.attribute-with-value.class.html punctuation.separator.key-value.html</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(300, 50%, 90%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>HTML attribute class equals quotes</string>
+					<key>scope</key>
+					<string>embedding.php text.html.basic meta.tag.inline.any.html meta.attribute-with-value.class.html meta.string.html string.quoted.double.html punctuation.definition.string.begin.html, embedding.php text.html.basic meta.tag.inline.any.html meta.attribute-with-value.class.html meta.string.html string.quoted.double.html punctuation.definition.string.end.html</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(300, 50%, 90%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>HTML attribute href url</string>
+					<key>scope</key>
+					<string>embedding.php text.html.basic meta.tag.inline.a.html meta.attribute-with-value.href.html entity.other.attribute-name.href.html, embedding.php text.html.basic meta.tag.inline.a.html meta.attribute-with-value.href.html punctuation.separator.key-value.html, embedding.php text.html.basic meta.tag.inline.a.html meta.attribute-with-value.href.html meta.string.html string.quoted.double.html punctuation.definition.string.begin.html, embedding.php text.html.basic meta.tag.inline.a.html meta.attribute-with-value.href.html meta.path.url.html meta.string.html string.quoted.double.html, embedding.php text.html.basic meta.tag.inline.a.html meta.attribute-with-value.href.html meta.string.html string.quoted.double.html punctuation.definition.string.end.html</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(220, 100%, 80%)</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>HTML attribute src url</string>
+					<key>scope</key>
+					<string>embedding.php text.html.basic meta.tag.inline.any.html meta.attribute-with-value.href.html entity.other.attribute-name.href.html, embedding.php text.html.basic meta.tag.inline.any.html meta.attribute-with-value.href.html punctuation.separator.key-value.html, embedding.php text.html.basic meta.tag.inline.any.html meta.attribute-with-value.href.html meta.string.html string.quoted.double.html punctuation.definition.string.begin.html, embedding.php text.html.basic meta.tag.inline.any.html meta.attribute-with-value.href.html meta.path.url.html meta.string.html string.quoted.double.html, embedding.php text.html.basic meta.tag.inline.any.html meta.attribute-with-value.href.html meta.string.html string.quoted.double.html punctuation.definition.string.end.html</string>
+					<key>settings</key>
+					<dict>
+						<key>fontStyle</key>
+						<string></string>
+						<key>foreground</key>
+						<string>hsl(220, 100%, 80%)</string>
+					</dict>
+				</dict>
+				<!-- end 2022 -->
 		<dict>
 			<key>name</key>
 			<string>JS: Function Name</string>
