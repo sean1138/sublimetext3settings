@@ -55,7 +55,7 @@
 		"CVS"
 	],
 	"font_face": "Consolas",
-	"font_size": 12,
+	/*"font_size": 13,*/
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -114,6 +114,14 @@
 		"elementor's",
 		"sortable",
 		"nameservers",
+		"subfolder",
+		"visibilities",
+		"unsetting",
+		"viewports",
+		"breakpoint",
+		"cnc",
+		"globals",
+		"transactional",
 	],
 	"ignored_words":
 	[
@@ -133,4 +141,5 @@
 		"wordpress",
 		"wp",
 	],
+	"font_size": 12,
 }

@@ -1,0 +1,13 @@
+<snippet>
+    <content>
+        <![CDATA[<img class="wp-image-6231 size-medium" src="https://placekitten.com/g/200/300" alt="placeholder" width="200" height="300" />]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>place</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <!-- <scope>source.txt</scope> -->
+    <!-- Optional: Description to show in the menu -->
+    <description>
+        placekitten placeholder img
+    </description>
+</snippet>

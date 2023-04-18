@@ -44,7 +44,9 @@
 	// "cleancss_command": "/usr/local/bin/cleancss",
 
 	// you can specify command line parameters for cleancss
-	"cleancss_options": "--s0 -s --skip-rebase",
+	// "cleancss_options": "--s0 -s --skip-rebase",
+	// "cleancss_options": "--skip-rebase -O1 specialComments:off",
+	"cleancss_options": "-O1 specialComments:off",
 
 	// you may want to define the uglifycss command with an absolute path
 	// "uglifycss_command": "/usr/local/bin/uglifycss",

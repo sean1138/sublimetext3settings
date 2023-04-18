@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<a href="tel:${1:XXX}" rel="nofollow" data-click_event="phoneCall">${2:XXX}</a>
+<a href="${1:XXX}" target="_blank" rel="noopener">${2:XXX}</a>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>tel</tabTrigger>
+	<tabTrigger>elink</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

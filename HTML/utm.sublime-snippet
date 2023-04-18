@@ -1,0 +1,15 @@
+<snippet>
+    <content>
+        <![CDATA[
+?utm_source=${1:_CAMPAIGNID_}&${2:_SOURCE_}&${3:_MEDIUM_}&${4:_NAME_}&${5:TERM}&${6:CONTENT}
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>utm</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <!-- <scope>source.txt</scope> -->
+    <!-- Optional: Description to show in the menu -->
+    <description>
+        utm boilerplate
+    </description>
+</snippet>

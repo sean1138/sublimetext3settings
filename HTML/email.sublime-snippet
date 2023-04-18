@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<a href="mailto:${1:XXX}">${2:XXX}</a>
+<a href="mailto:${1:XXX}" data-click_event="directEmail">${2:XXX}</a>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>email</tabTrigger>

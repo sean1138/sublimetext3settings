@@ -1,0 +1,37 @@
+<snippet>
+    <content>
+        <![CDATA[
+--------------------------------------------------------------------------------
+${1:CLIENT}
+${2:TIME}
+seranking sean acct
+check backups to keep last 2, remove older than 90 days
+made backup
+SER audit , rerun
+pagespeed:
+yellowlab:
+
+plugins updated:
+
+themes updated:
+
+GSC:
+
+BWT:
+
+zen:
+
+issues:
+
+
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>maint</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <!-- <scope>source.txt</scope> -->
+    <!-- Optional: Description to show in the menu -->
+    <description>
+        maintenance boilerplate
+    </description>
+</snippet>
