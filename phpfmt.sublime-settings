@@ -1,4 +1,7 @@
 {
 	"psr1": false,
+	"psr2": false,
+	"psr12": true,
 	"version": 4,
+	"php_bin":"S:/PHP810/php.exe",
 }

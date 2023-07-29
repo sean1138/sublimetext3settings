@@ -1,15 +1,15 @@
 <snippet>
     <content>
-        <![CDATA[--------------------------------------------------------------------------------
+        <![CDATA[################################################################################
 
 ]]>
     </content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>---</tabTrigger>
+    <tabTrigger>###</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <!-- <scope>source.txt</scope> -->
     <!-- Optional: Description to show in the menu -->
     <description>
-        line 80 characters
+        line 80 characters pound sign
     </description>
 </snippet>
