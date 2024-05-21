@@ -1,0 +1,22 @@
+<snippet>
+    <content>
+        <![CDATA[
+| Section | Before (Original Content) | After (Rewritten Content) |
+| -------- | ------- | -------- |
+| -------- | ------- | [your rewrite] |
+| -------- | ------- | [your rewrite] |
+| -------- | ------- | [your rewrite] |
+| -------- | ------- | [your rewrite] |
+| -------- | ------- | -------- |
+| -------- | ------- | -------- |
+]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>mdtable</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <!-- <scope>source.txt</scope> -->
+    <!-- Optional: Description to show in the menu -->
+    <description>
+        markdown table formatting
+    </description>
+</snippet>

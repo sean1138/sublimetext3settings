@@ -1,0 +1,13 @@
+<snippet>
+    <content>
+        <![CDATA[¯\_(ツ)_/¯]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>shrug</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <!-- <scope>source.txt</scope> -->
+    <!-- Optional: Description to show in the menu -->
+    <description>
+        line 80 characters dash character
+    </description>
+</snippet>
