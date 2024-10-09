@@ -9,6 +9,7 @@
 		"Autoprefixer",
 		"Babel",
 		"BracketHighlighter",
+		"CodeFormatter",
 		"CSScomb",
 		"DeleteBlankLines",
 		"Emmet",

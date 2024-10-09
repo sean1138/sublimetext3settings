@@ -3,12 +3,13 @@
         <![CDATA[
 | Section | Before (Original Content) | After (Rewritten Content) |
 | -------- | ------- | -------- |
-| -------- | ------- | [your rewrite] |
-| -------- | ------- | [your rewrite] |
-| -------- | ------- | [your rewrite] |
-| -------- | ------- | [your rewrite] |
-| -------- | ------- | -------- |
-| -------- | ------- | -------- |
+| hero title | ------- | [your rewrite] |
+| hero lead text | ------- | [your rewrite] |
+| section1 | ------- | [your rewrite] |
+| section2 | ------- | [your rewrite] |
+| section3 | ------- | [your rewrite] |
+| section4 | ------- | [your rewrite] |
+| section5 | ------- | [your rewrite] |
 ]]>
     </content>
     <!-- Optional: Tab trigger to activate the snippet -->

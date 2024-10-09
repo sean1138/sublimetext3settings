@@ -1,35 +1,21 @@
 <snippet>
     <content>
         <![CDATA[
+################################################################################
+################################################################################
+################################################################################
 --------------------------------------------------------------------------------
 ${1:CLIENT}
 ${2:TIME}
-seranking sean acct
+load up paperless/SEO
 check backups to keep last 2, remove older than 90 days
 made backup
-SER audit , rerun
-pagespeed:
-yellowlab:
 
-plugins updated:
+purge SG cache when done!
 
-themes updated:
+plugins ...
 
-make seranking keywords backup:
-
-rankings:
-
-GSC:
-
-BWT:
-
-GA:
-
-reporting.jpb:
-
-zen:
-
-issues:
+paperless...
 
 
 ]]>

@@ -127,6 +127,19 @@
 		"fisted",
 		"underlayment",
 		"uncrawlable",
+		"Norwalk",
+		"areola",
+		"minify",
+		"minified",
+		"shortcode",
+		"paywalled",
+		"unpublish",
+		"responder",
+		"uploader",
+		"youtube",
+		"aether",
+		"quaternary",
+		"woocommerce",
 	],
 	"ignored_words":
 	[
@@ -147,4 +160,5 @@
 		"wp",
 	],
 	"font_size": 12,
+	"index_files": true,
 }
