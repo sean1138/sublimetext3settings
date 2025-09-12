@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<img src="${1:https://linktosource}" alt="${2:altTEXT}" />
+<img loading="lazy" src="${1:https://linktosource}" alt="${2:altTEXT}" />
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>imgg</tabTrigger>

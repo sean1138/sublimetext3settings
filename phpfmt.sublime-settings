@@ -4,4 +4,5 @@
 	"psr12": true,
 	"version": 4,
 	"php_bin":"S:/PHP810/php.exe",
+	"format_on_save": false,
 }

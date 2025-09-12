@@ -23,8 +23,6 @@
 		"npm",
 		"Package Control",
 		"PackageResourceViewer",
-		"PHP-Twig",
-		"phpfmt",
 		"rainbow_csv",
 		"Sass",
 		"SideBarEnhancements",
@@ -34,5 +32,6 @@
 		"Sync Settings",
 		"Text Pastry",
 		"TrailingSpaces",
+		"Twig",
 	],
 }

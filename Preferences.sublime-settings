@@ -69,6 +69,7 @@
 	"tab_size": 2,
 	"theme": "Default.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
+	// "trim_only_modified_white_space": false,
 	"word_wrap": "true",
 	// spellcheck things below
 	"added_words":
@@ -140,6 +141,7 @@
 		"aether",
 		"quaternary",
 		"woocommerce",
+		"combinable",
 	],
 	"ignored_words":
 	[
@@ -159,6 +161,7 @@
 		"wordpress",
 		"wp",
 	],
-	"font_size": 12,
+	/*"font_size": 12,*/
 	"index_files": true,
+	"font_size": 11,
 }
