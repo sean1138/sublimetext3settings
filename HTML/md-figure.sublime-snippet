@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<figure class="vsxd-fr">
+	<img src="${1:IMG_URL}" alt="${2:ALT_TEXT}" height="160" width="160">
+	<figcaption>${3:CAPTION_TEXT}</figcaption>
+</figure>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mdfig</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

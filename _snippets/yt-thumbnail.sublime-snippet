@@ -1,0 +1,13 @@
+<snippet>
+    <content>
+        <![CDATA[https://i.ytimg.com/vi/${1:VIDEO_ID}/hqdefault.jpg]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ytt</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <!-- <scope>source.txt</scope> -->
+    <!-- Optional: Description to show in the menu -->
+    <description>
+        line 80 characters dash character
+    </description>
+</snippet>

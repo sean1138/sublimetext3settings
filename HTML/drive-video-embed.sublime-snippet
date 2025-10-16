@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<!-- VIDEOFILENAME.mp4 -->
+<iframe src="https://drive.google.com/file/d/1ohZ2eH4qmODnQcyOiOwSBaIc_Ash0bzb/preview" width="640" height="360" allow="autoplay *; fullscreen *;" allowfullscreen="true" style="width:100%;height:auto;aspect-ratio:16/9;"></iframe>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>drive</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
