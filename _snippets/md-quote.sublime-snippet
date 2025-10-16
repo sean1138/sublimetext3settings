@@ -1,13 +1,20 @@
 <snippet>
     <content>
-        <![CDATA[¯\_(ツ)_/¯]]>
+        <![CDATA[
+
+> text
+> text
+>
+> -- <cite>CITE_YOUR_SOURCES</cite>
+
+        ]]>
     </content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>shrug</tabTrigger>
+    <tabTrigger>mdq</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <!-- <scope>source.txt</scope> -->
     <!-- Optional: Description to show in the menu -->
     <description>
-        shrug emoticon
+        markdown quote formatting
     </description>
 </snippet>
